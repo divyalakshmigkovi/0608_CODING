@@ -1,10 +1,10 @@
 com\toyrobot\simulate\ToyRobotSimulate.class
-com\toyrobot\controller\ToyRobotController.class
-com\toyrobot\exception\InvalidInputException.class
-com\toyrobot\command\ToyRobotCommand.class
-com\toyrobot\object\ToyRobot.class
 com\toyrobot\inputoutput\ToyRobotInputOutput.class
+com\toyrobot\controller\ToyRobotController.class
 com\toyrobot\inputoutput\ToyRobotInputOutputImpl.class
+com\toyrobot\exception\InvalidInputException.class
 com\toyrobot\simulate\ToyRobotSimulateImpl.class
 com\toyrobot\command\ToyRobotCommandImpl.class
+com\toyrobot\command\ToyRobotCommand.class
 com\toyrobot\constants\Constants.class
+com\toyrobot\object\ToyRobot.class

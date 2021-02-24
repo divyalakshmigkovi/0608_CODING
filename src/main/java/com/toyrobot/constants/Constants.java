@@ -1,5 +1,8 @@
 package com.toyrobot.constants;
 
+/**
+ * Stores the constants.
+ */
 public class Constants {
 	
 	public static String[] DIRECTIONARRAY = {"NORTH","EAST","SOUTH","WEST"};
@@ -11,8 +14,5 @@ public class Constants {
 	public static final String REPORT = "REPORT";
 	public static final String LEFT = "LEFT";
 	public static final String RIGHT = "RIGHT";
-	public static final String ROBOT_NOT_PLACED = "ROBOT NOT PLACED";
-	public static final String SPACE = " ";
-	public static final String COMMA = ",";
 
 }

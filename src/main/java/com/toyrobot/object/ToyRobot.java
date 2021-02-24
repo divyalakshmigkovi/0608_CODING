@@ -1,5 +1,8 @@
 package com.toyrobot.object;
 
+/**
+ * This is an encapsulated robot object
+ */
 public class ToyRobot {
 	private int currentX;
 	private int currentY;

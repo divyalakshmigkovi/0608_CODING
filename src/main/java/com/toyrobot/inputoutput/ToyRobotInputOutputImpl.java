@@ -5,9 +5,16 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * This class is for reading the input and writing the output
+ */
 public class ToyRobotInputOutputImpl implements ToyRobotInputOutput{
 	
-
+	/**
+	 * Reads the input from a file
+	 * @param fileName Name of the input file
+	 * @return Lines from the input file in the form of an ArrayList
+	 */
 	public ArrayList<String> readInput(String fileName) {
 		// TODO Auto-generated method stub
         File myObj = new File(fileName);
@@ -21,24 +28,17 @@ public class ToyRobotInputOutputImpl implements ToyRobotInputOutput{
 		      }
 			myReader.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("Invalid file name. Please enter a valid file name.");
-			System.out.println("eg. E:\\Eclipse\\files\\input.txt");
+			System.out.println(e);
+			System.out.println("Please enter the correct file location, for example, E:\\Eclipse\\files\\Samples\\input.txt");
 		}
 		return input;
 	}
 
+	/**
+	 * This method writs the output to console
+	 * @param finalPosition Final position of the Robot
+	 */
 	public void writeOutput(String finalPosition) {
-		System.out.println(""+finalPosition);
-	/*	try {
-		      FileWriter myWriter = new FileWriter("src/main/resources/output.txt");
-		      System.out.println(""+finalPosition);
-		      myWriter.write("");
-		      if(finalPosition!= null){
-		      myWriter.write(finalPosition);
-		      }
-		      myWriter.close();
-		    } catch (IOException e) {
-		      e.printStackTrace();
-		    } */
+		System.out.println(finalPosition);
 	}
 }

@@ -18,6 +18,7 @@ public class ToyRobotSimulateTests {
 		  assertEquals("0,0,WEST",testSimulate.startRobot(new TestInput3().getInputs(), 5));
 		  assertEquals("3,3,NORTH",testSimulate.startRobot(new TestInput4().getInputs(), 5));
 		  assertEquals("1,1,NORTH",testSimulate.startRobot(new TestInput5().getInputs(), 5));
+		  assertEquals("1,6,NORTH",testSimulate.startRobot(new TestInput6().getInputs(), 15));
 	  }
 	  
 }
