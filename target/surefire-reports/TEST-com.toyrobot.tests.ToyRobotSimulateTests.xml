@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.toyrobot.tests.ToyRobotSimulateTests" time="0.122" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.toyrobot.tests.ToyRobotSimulateTests" time="0.055" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Divya\AppData\Local\Temp\surefire1093950655481870020\surefirebooter1900114571996309572.jar C:\Users\Divya\AppData\Local\Temp\surefire1093950655481870020 2021-02-25T09-41-40_775-jvmRun1 surefire3092302102246072502tmp surefire_02791413225160872288tmp"/>
+    <property name="sun.java.command" value="C:\Users\Divya\AppData\Local\Temp\surefire423447630622264057\surefirebooter8264597887157973581.jar C:\Users\Divya\AppData\Local\Temp\surefire423447630622264057 2021-02-25T10-44-27_263-jvmRun1 surefire1013677516063283595tmp surefire_08699315278473678679tmp"/>
     <property name="surefire.test.class.path" value="E:\NewEclipse\WS1\toy-tobot-simulator\target\test-classes;E:\NewEclipse\WS1\toy-tobot-simulator\target\classes;C:\Users\Divya\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Divya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Divya"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Divya\AppData\Local\Temp\surefire1093950655481870020\surefirebooter1900114571996309572.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Divya\AppData\Local\Temp\surefire423447630622264057\surefirebooter8264597887157973581.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="startRobotTest" classname="com.toyrobot.tests.ToyRobotSimulateTests" time="0.032"/>
+  <testcase name="startRobotTest" classname="com.toyrobot.tests.ToyRobotSimulateTests" time="0.012"/>
 </testsuite>

@@ -2,6 +2,9 @@ package com.toyrobot.tests;
 
 import java.util.ArrayList;
 
+/**
+ * Test scenario input6
+ */
 public class TestInput6 {
 	
 	
@@ -16,8 +19,6 @@ public class TestInput6 {
 		testInputs.add("PLACE 1,5,NORTH");
 		testInputs.add("MOVE");
 		testInputs.add("REPORT");
-		//testInputs.add("LEFT");
-	//	testInputs.add("REPORT");
 		return testInputs;
 	}
 }

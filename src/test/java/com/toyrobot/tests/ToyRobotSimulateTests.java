@@ -6,6 +6,10 @@ import org.junit.Test;
 
 import com.toyrobot.simulate.ToyRobotSimulateImpl;
 
+/**
+ * This class tests the simulation of a robot for several scenarios. 
+ * The test scenario inputs are obtained from the TestInput class
+ */
 public class ToyRobotSimulateTests {
 	
 	ToyRobotSimulateImpl testSimulate = new ToyRobotSimulateImpl();

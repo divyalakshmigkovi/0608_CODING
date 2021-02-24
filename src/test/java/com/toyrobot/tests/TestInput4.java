@@ -2,6 +2,9 @@ package com.toyrobot.tests;
 
 import java.util.ArrayList;
 
+/**
+ * Test scenario input4
+ */
 public class TestInput4 {
 	public ArrayList<String> testInputs = new ArrayList<String>();
 
